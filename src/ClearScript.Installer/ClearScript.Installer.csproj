@@ -46,7 +46,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ClearScript.Installer.nuspec" />
+    <None Include="Content\Web.config.install.xdt" />
+    <None Include="Content\Web.config.uninstall.xdt" />
     <None Include="Installation\install.ps1" />
+    <None Include="Installation\PostBuildCmd.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
