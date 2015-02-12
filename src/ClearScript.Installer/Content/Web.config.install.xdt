@@ -22,8 +22,8 @@
 	<system.web>
 		<compilation >
 			<assemblies >
-				<remove  xdt:Transform="Remove"  xdt:Locator="Match(assembly)" assembly="ClearScriptV8-32"/>
-				<remove xdt:Transform="Insert" xdt:Locator="Match(assembly)" assembly="ClearScriptV8-64"/>
+				<remove  xdt:Transform="Insert"  xdt:Locator="Match(assembly)" assembly="ClearScriptV8-32"/>
+				<remove  xdt:Transform="Insert"  xdt:Locator="Match(assembly)" assembly="ClearScriptV8-64"/>
 
 			</assemblies>
 		</compilation>
