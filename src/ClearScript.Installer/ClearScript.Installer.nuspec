@@ -11,28 +11,23 @@
         <description>$description$</description>
         <summary>$description$</summary>
         <copyright>Copyright 2014 Eric Swann, et. al. - All rights reserved.</copyright>
-        <language />
+        <language/>
         <tags>ClearScript V8 JavaScript</tags>
-        <dependencies>
-        </dependencies>
+        <dependencies/>
     </metadata>
-  <files>
-	<file src="Content\Web.config.install.xdt" target="content"/>
-	<file src="Content\Web.config.uninstall.xdt" target="content"/>
-	  
-    <file src="..\..\lib\ClearScript.dll" target="lib\net45" />
-    <file src="..\..\lib\ClearScript.pdb" target="lib\net45" />
-	  
-	<file src="..\..\lib\ClearScriptV8-32.dll" target="tools/native" />
-    <file src="..\..\lib\ClearScriptV8-32.pdb" target="tools/native" />
-    <file src="..\..\lib\ClearScriptV8-64.dll" target="tools/native" />
-    <file src="..\..\lib\ClearScriptV8-64.pdb" target="tools/native" />
-    <file src="..\..\lib\v8-ia32.dll" target="tools/native" />
-    <file src="..\..\lib\v8-ia32.pdb" target="tools/native" />
-    <file src="..\..\lib\v8-x64.dll" target="tools/native" />
-    <file src="..\..\lib\v8-x64.pdb" target="tools/native" />
-    <file src="Installation\install.ps1" target="tools" />
-	<file src="Installation\uninstall.ps1" target="tools" />
-   
-  </files>
+    <files>
+        <file src="Content\Web.config.install.xdt" target="content"/>
+        <file src="Content\Web.config.uninstall.xdt" target="content"/>
+        <file src="build\ClearScript.Installer.targets" target="build"/>
+        <file src="..\..\lib\ClearScript.dll" target="lib\net45"/>
+        <file src="..\..\lib\ClearScript.pdb" target="lib\net45"/>
+        <file src="..\..\lib\ClearScriptV8-32.dll" target="tools/native"/>
+        <file src="..\..\lib\ClearScriptV8-32.pdb" target="tools/native"/>
+        <file src="..\..\lib\ClearScriptV8-64.dll" target="tools/native"/>
+        <file src="..\..\lib\ClearScriptV8-64.pdb" target="tools/native"/>
+        <file src="..\..\lib\v8-ia32.dll" target="tools/native"/>
+        <file src="..\..\lib\v8-ia32.pdb" target="tools/native"/>
+        <file src="..\..\lib\v8-x64.dll" target="tools/native"/>
+        <file src="..\..\lib\v8-x64.pdb" target="tools/native"/>
+    </files>
 </package>
